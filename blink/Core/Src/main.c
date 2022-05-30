@@ -96,7 +96,7 @@ int main(void)
 
     /* USER CODE BEGIN 3 */
 		HAL_GPIO_TogglePin(GPIOC, led_Pin);
-		HAL_Delay(1000);
+		HAL_Delay(100);
   }
   /* USER CODE END 3 */
 }
